@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F789651C740C1000243045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F789641C740C1000243045 /* main.m */; };
+		46F789681C740C1000243045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F789671C740C1000243045 /* AppDelegate.m */; };
+		46F7896B1C740C1000243045 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F7896A1C740C1000243045 /* ViewController.m */; };
+		46F7896E1C740C1000243045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F7896C1C740C1000243045 /* Main.storyboard */; };
+		46F789711C740C1000243045 /* Happy_New_Year.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46F7896F1C740C1000243045 /* Happy_New_Year.xcdatamodeld */; };
+		46F789731C740C1000243045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F789721C740C1000243045 /* Assets.xcassets */; };
+		46F789761C740C1000243045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F789741C740C1000243045 /* LaunchScreen.storyboard */; };
+		46F789811C740C1000243045 /* Happy_New_YearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F789801C740C1000243045 /* Happy_New_YearTests.m */; };
+		46F7898C1C740C1000243045 /* Happy_New_YearUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F7898B1C740C1000243045 /* Happy_New_YearUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F7897D1C740C1000243045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F789581C740C1000243045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F7895F1C740C1000243045;
+			remoteInfo = "Happy New Year";
+		};
+		46F789881C740C1000243045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F789581C740C1000243045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F7895F1C740C1000243045;
+			remoteInfo = "Happy New Year";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F789601C740C1000243045 /* Happy New Year.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy New Year.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F789641C740C1000243045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46F789661C740C1000243045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46F789671C740C1000243045 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46F789691C740C1000243045 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46F7896A1C740C1000243045 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46F7896D1C740C1000243045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F789701C740C1000243045 /* Happy_New_Year.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Happy_New_Year.xcdatamodel; sourceTree = "<group>"; };
+		46F789721C740C1000243045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F789751C740C1000243045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46F789771C740C1000243045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F7897C1C740C1000243045 /* Happy New YearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy New YearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F789801C740C1000243045 /* Happy_New_YearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Happy_New_YearTests.m; sourceTree = "<group>"; };
+		46F789821C740C1000243045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F789871C740C1000243045 /* Happy New YearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy New YearUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F7898B1C740C1000243045 /* Happy_New_YearUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Happy_New_YearUITests.m; sourceTree = "<group>"; };
+		46F7898D1C740C1000243045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F7895D1C740C1000243045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F789791C740C1000243045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F789841C740C1000243045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F789571C740C1000243045 = {
+			isa = PBXGroup;
+			children = (
+				46F789621C740C1000243045 /* Happy New Year */,
+				46F7897F1C740C1000243045 /* Happy New YearTests */,
+				46F7898A1C740C1000243045 /* Happy New YearUITests */,
+				46F789611C740C1000243045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F789611C740C1000243045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F789601C740C1000243045 /* Happy New Year.app */,
+				46F7897C1C740C1000243045 /* Happy New YearTests.xctest */,
+				46F789871C740C1000243045 /* Happy New YearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F789621C740C1000243045 /* Happy New Year */ = {
+			isa = PBXGroup;
+			children = (
+				46F789661C740C1000243045 /* AppDelegate.h */,
+				46F789671C740C1000243045 /* AppDelegate.m */,
+				46F789691C740C1000243045 /* ViewController.h */,
+				46F7896A1C740C1000243045 /* ViewController.m */,
+				46F7896C1C740C1000243045 /* Main.storyboard */,
+				46F789721C740C1000243045 /* Assets.xcassets */,
+				46F789741C740C1000243045 /* LaunchScreen.storyboard */,
+				46F789771C740C1000243045 /* Info.plist */,
+				46F7896F1C740C1000243045 /* Happy_New_Year.xcdatamodeld */,
+				46F789631C740C1000243045 /* Supporting Files */,
+			);
+			path = "Happy New Year";
+			sourceTree = "<group>";
+		};
+		46F789631C740C1000243045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F789641C740C1000243045 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46F7897F1C740C1000243045 /* Happy New YearTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F789801C740C1000243045 /* Happy_New_YearTests.m */,
+				46F789821C740C1000243045 /* Info.plist */,
+			);
+			path = "Happy New YearTests";
+			sourceTree = "<group>";
+		};
+		46F7898A1C740C1000243045 /* Happy New YearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F7898B1C740C1000243045 /* Happy_New_YearUITests.m */,
+				46F7898D1C740C1000243045 /* Info.plist */,
+			);
+			path = "Happy New YearUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F7895F1C740C1000243045 /* Happy New Year */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F789901C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New Year" */;
+			buildPhases = (
+				46F7895C1C740C1000243045 /* Sources */,
+				46F7895D1C740C1000243045 /* Frameworks */,
+				46F7895E1C740C1000243045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy New Year";
+			productName = "Happy New Year";
+			productReference = 46F789601C740C1000243045 /* Happy New Year.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F7897B1C740C1000243045 /* Happy New YearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F789931C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New YearTests" */;
+			buildPhases = (
+				46F789781C740C1000243045 /* Sources */,
+				46F789791C740C1000243045 /* Frameworks */,
+				46F7897A1C740C1000243045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F7897E1C740C1000243045 /* PBXTargetDependency */,
+			);
+			name = "Happy New YearTests";
+			productName = "Happy New YearTests";
+			productReference = 46F7897C1C740C1000243045 /* Happy New YearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F789861C740C1000243045 /* Happy New YearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F789961C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New YearUITests" */;
+			buildPhases = (
+				46F789831C740C1000243045 /* Sources */,
+				46F789841C740C1000243045 /* Frameworks */,
+				46F789851C740C1000243045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F789891C740C1000243045 /* PBXTargetDependency */,
+			);
+			name = "Happy New YearUITests";
+			productName = "Happy New YearUITests";
+			productReference = 46F789871C740C1000243045 /* Happy New YearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F789581C740C1000243045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = junashi;
+				TargetAttributes = {
+					46F7895F1C740C1000243045 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					46F7897B1C740C1000243045 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46F7895F1C740C1000243045;
+					};
+					46F789861C740C1000243045 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46F7895F1C740C1000243045;
+					};
+				};
+			};
+			buildConfigurationList = 46F7895B1C740C1000243045 /* Build configuration list for PBXProject "Happy New Year" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F789571C740C1000243045;
+			productRefGroup = 46F789611C740C1000243045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F7895F1C740C1000243045 /* Happy New Year */,
+				46F7897B1C740C1000243045 /* Happy New YearTests */,
+				46F789861C740C1000243045 /* Happy New YearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F7895E1C740C1000243045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F789761C740C1000243045 /* LaunchScreen.storyboard in Resources */,
+				46F789731C740C1000243045 /* Assets.xcassets in Resources */,
+				46F7896E1C740C1000243045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F7897A1C740C1000243045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F789851C740C1000243045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F7895C1C740C1000243045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F7896B1C740C1000243045 /* ViewController.m in Sources */,
+				46F789681C740C1000243045 /* AppDelegate.m in Sources */,
+				46F789711C740C1000243045 /* Happy_New_Year.xcdatamodeld in Sources */,
+				46F789651C740C1000243045 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F789781C740C1000243045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F789811C740C1000243045 /* Happy_New_YearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F789831C740C1000243045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F7898C1C740C1000243045 /* Happy_New_YearUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F7897E1C740C1000243045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F7895F1C740C1000243045 /* Happy New Year */;
+			targetProxy = 46F7897D1C740C1000243045 /* PBXContainerItemProxy */;
+		};
+		46F789891C740C1000243045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F7895F1C740C1000243045 /* Happy New Year */;
+			targetProxy = 46F789881C740C1000243045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F7896C1C740C1000243045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F7896D1C740C1000243045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F789741C740C1000243045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F789751C740C1000243045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F7898E1C740C1000243045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46F7898F1C740C1000243045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F789911C740C1000243045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy New Year/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junashi.Happy-New-Year";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F789921C740C1000243045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Happy New Year/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junashi.Happy-New-Year";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46F789941C740C1000243045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy New YearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junashi.Happy-New-YearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy New Year.app/Happy New Year";
+			};
+			name = Debug;
+		};
+		46F789951C740C1000243045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Happy New YearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junashi.Happy-New-YearTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Happy New Year.app/Happy New Year";
+			};
+			name = Release;
+		};
+		46F789971C740C1000243045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy New YearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junashi.Happy-New-YearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy New Year";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46F789981C740C1000243045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Happy New YearUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "junashi.Happy-New-YearUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Happy New Year";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F7895B1C740C1000243045 /* Build configuration list for PBXProject "Happy New Year" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F7898E1C740C1000243045 /* Debug */,
+				46F7898F1C740C1000243045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F789901C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New Year" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F789911C740C1000243045 /* Debug */,
+				46F789921C740C1000243045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F789931C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New YearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F789941C740C1000243045 /* Debug */,
+				46F789951C740C1000243045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F789961C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New YearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F789971C740C1000243045 /* Debug */,
+				46F789981C740C1000243045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46F7896F1C740C1000243045 /* Happy_New_Year.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46F789701C740C1000243045 /* Happy_New_Year.xcdatamodel */,
+			);
+			currentVersion = 46F789701C740C1000243045 /* Happy_New_Year.xcdatamodel */;
+			path = Happy_New_Year.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46F789581C740C1000243045 /* Project object */;
+}
