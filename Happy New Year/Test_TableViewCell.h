@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Test_TableViewCell.h
 //  Happy New Year
 //
 //  Created by 钟柳 on 16/2/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface Test_TableViewCell : UITableViewCell
+- (void)setDataTitleLable:(NSString *)title;
 @end
-

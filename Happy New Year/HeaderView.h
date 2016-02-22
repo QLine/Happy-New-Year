@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HeaderView.h
 //  Happy New Year
 //
 //  Created by 钟柳 on 16/2/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface HeaderView : UIView
+@property (nonatomic,assign)BOOL isOpend;
 @end
-

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460EF91A1C74387A005B8524 /* Test_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 460EF9181C74387A005B8524 /* Test_TableViewCell.m */; };
+		460EF91B1C74387A005B8524 /* Test_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460EF9191C74387A005B8524 /* Test_TableViewCell.xib */; };
+		460EF91F1C743EEC005B8524 /* TestTwo_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 460EF91D1C743EEC005B8524 /* TestTwo_TableViewCell.m */; };
+		460EF9201C743EEC005B8524 /* TestTwo_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460EF91E1C743EEC005B8524 /* TestTwo_TableViewCell.xib */; };
+		460EF9231C746C23005B8524 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 460EF9221C746C23005B8524 /* HeaderView.m */; };
 		46F789651C740C1000243045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F789641C740C1000243045 /* main.m */; };
 		46F789681C740C1000243045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F789671C740C1000243045 /* AppDelegate.m */; };
 		46F7896B1C740C1000243045 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F7896A1C740C1000243045 /* ViewController.m */; };
@@ -36,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		460EF9171C74387A005B8524 /* Test_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test_TableViewCell.h; sourceTree = "<group>"; };
+		460EF9181C74387A005B8524 /* Test_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_TableViewCell.m; sourceTree = "<group>"; };
+		460EF9191C74387A005B8524 /* Test_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Test_TableViewCell.xib; sourceTree = "<group>"; };
+		460EF91C1C743EEC005B8524 /* TestTwo_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwo_TableViewCell.h; sourceTree = "<group>"; };
+		460EF91D1C743EEC005B8524 /* TestTwo_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwo_TableViewCell.m; sourceTree = "<group>"; };
+		460EF91E1C743EEC005B8524 /* TestTwo_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTwo_TableViewCell.xib; sourceTree = "<group>"; };
+		460EF9211C746C23005B8524 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		460EF9221C746C23005B8524 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		46F789601C740C1000243045 /* Happy New Year.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy New Year.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F789641C740C1000243045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46F789661C740C1000243045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +120,14 @@
 				46F789671C740C1000243045 /* AppDelegate.m */,
 				46F789691C740C1000243045 /* ViewController.h */,
 				46F7896A1C740C1000243045 /* ViewController.m */,
+				460EF9211C746C23005B8524 /* HeaderView.h */,
+				460EF9221C746C23005B8524 /* HeaderView.m */,
+				460EF91C1C743EEC005B8524 /* TestTwo_TableViewCell.h */,
+				460EF91D1C743EEC005B8524 /* TestTwo_TableViewCell.m */,
+				460EF91E1C743EEC005B8524 /* TestTwo_TableViewCell.xib */,
+				460EF9171C74387A005B8524 /* Test_TableViewCell.h */,
+				460EF9181C74387A005B8524 /* Test_TableViewCell.m */,
+				460EF9191C74387A005B8524 /* Test_TableViewCell.xib */,
 				46F7896C1C740C1000243045 /* Main.storyboard */,
 				46F789721C740C1000243045 /* Assets.xcassets */,
 				46F789741C740C1000243045 /* LaunchScreen.storyboard */,
@@ -247,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46F789761C740C1000243045 /* LaunchScreen.storyboard in Resources */,
+				460EF91B1C74387A005B8524 /* Test_TableViewCell.xib in Resources */,
 				46F789731C740C1000243045 /* Assets.xcassets in Resources */,
 				46F7896E1C740C1000243045 /* Main.storyboard in Resources */,
+				460EF9201C743EEC005B8524 /* TestTwo_TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460EF9231C746C23005B8524 /* HeaderView.m in Sources */,
+				460EF91F1C743EEC005B8524 /* TestTwo_TableViewCell.m in Sources */,
 				46F7896B1C740C1000243045 /* ViewController.m in Sources */,
 				46F789681C740C1000243045 /* AppDelegate.m in Sources */,
+				460EF91A1C74387A005B8524 /* Test_TableViewCell.m in Sources */,
 				46F789711C740C1000243045 /* Happy_New_Year.xcdatamodeld in Sources */,
 				46F789651C740C1000243045 /* main.m in Sources */,
 			);
@@ -500,6 +526,7 @@
 				46F789921C740C1000243045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F789931C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New YearTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +535,7 @@
 				46F789951C740C1000243045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F789961C740C1000243045 /* Build configuration list for PBXNativeTarget "Happy New YearUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +544,7 @@
 				46F789981C740C1000243045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  Happy New Year
 //
-//  Created by junashi on 16/2/17.
-//  Copyright © 2016年 junashi. All rights reserved.
+//  Created by 钟柳 on 16/2/17.
+//  Copyright © 2016年 钟柳. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -51,7 +51,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "junashi.Happy_New_Year" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "钟柳.Happy_New_Year" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 

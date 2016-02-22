@@ -2,8 +2,8 @@
 //  main.m
 //  Happy New Year
 //
-//  Created by junashi on 16/2/17.
-//  Copyright © 2016年 junashi. All rights reserved.
+//  Created by 钟柳 on 16/2/17.
+//  Copyright © 2016年 钟柳. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
